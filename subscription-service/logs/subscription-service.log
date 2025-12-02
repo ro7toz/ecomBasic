@@ -1,0 +1,25 @@
+2025-12-02T20:37:33.280+05:30  INFO 11904 --- [subscription-service] [main] com.wok.SubscriptionServiceApplication   : Starting SubscriptionServiceApplication using Java 21.0.6 with PID 11904 (C:\Users\Chauhans\OneDrive\Desktop\New folder (2)\ecomBasic\subscription-service\target\classes started by Chauhans in C:\Users\Chauhans\OneDrive\Desktop\New folder (2)\ecomBasic\subscription-service)
+2025-12-02T20:37:33.283+05:30  INFO 11904 --- [subscription-service] [main] com.wok.SubscriptionServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T20:37:33.962+05:30  INFO 11904 --- [subscription-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02T20:37:33.965+05:30  INFO 11904 --- [subscription-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T20:37:34.039+05:30  INFO 11904 --- [subscription-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2025-12-02T20:37:34.534+05:30  INFO 11904 --- [subscription-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8006 (http)
+2025-12-02T20:37:34.551+05:30  INFO 11904 --- [subscription-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-02T20:37:34.551+05:30  INFO 11904 --- [subscription-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-02T20:37:34.625+05:30  INFO 11904 --- [subscription-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-02T20:37:34.625+05:30  INFO 11904 --- [subscription-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1287 ms
+2025-12-02T20:37:34.784+05:30  INFO 11904 --- [subscription-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T20:37:34.854+05:30  INFO 11904 --- [subscription-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-12-02T20:37:34.904+05:30  INFO 11904 --- [subscription-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-02T20:37:35.165+05:30  INFO 11904 --- [subscription-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T20:37:35.196+05:30  INFO 11904 --- [subscription-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-02T20:37:35.676+05:30  INFO 11904 --- [subscription-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71f0806b
+2025-12-02T20:37:35.678+05:30  INFO 11904 --- [subscription-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-02T20:37:35.752+05:30  WARN 11904 --- [subscription-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-02T20:37:35.754+05:30  WARN 11904 --- [subscription-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-02T20:37:36.567+05:30  INFO 11904 --- [subscription-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T20:37:36.956+05:30  INFO 11904 --- [subscription-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T20:37:37.000+05:30  WARN 11904 --- [subscription-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-02T20:37:37.622+05:30  INFO 11904 --- [subscription-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8006 (http) with context path ''
+2025-12-02T20:37:37.628+05:30  INFO 11904 --- [subscription-service] [main] com.wok.SubscriptionServiceApplication   : Started SubscriptionServiceApplication in 4.783 seconds (process running for 5.149)
+2025-12-02T21:15:37.492+05:30  WARN 11904 --- [subscription-service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m1s218ms730µs600ns).

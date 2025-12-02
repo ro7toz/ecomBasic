@@ -1,38 +1,22 @@
 package com.wok;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple App, now updated for JUnit 5.
+ * * NOTE: The old JUnit 3/4 structure (extending TestCase, suite() method) has been removed.
  */
-public class AppTest 
-    extends TestCase
+public class AppTest
 {
     /**
-     * Create the test case
-     *
-     * @param testName name of the test case
+     * Rigorous Test :-)
+     * This test method is now annotated with @Test, which is the standard JUnit 5 pattern.
      */
-    public AppTest( String testName )
+    @Test
+    void shouldAnswerWithTrue()
     {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+        // Simple assertion to confirm the test is running successfully.
+        assertTrue( true, "The basic test should always return true." );
     }
 }

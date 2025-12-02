@@ -1,0 +1,25 @@
+2025-12-02T20:34:40.390+05:30  INFO 21328 --- [payment-service] [main] com.wok.PaymentServiceApplication        : Starting PaymentServiceApplication using Java 21.0.6 with PID 21328 (C:\Users\Chauhans\OneDrive\Desktop\New folder (2)\ecomBasic\payment-service\target\classes started by Chauhans in C:\Users\Chauhans\OneDrive\Desktop\New folder (2)\ecomBasic\payment-service)
+2025-12-02T20:34:40.391+05:30  INFO 21328 --- [payment-service] [main] com.wok.PaymentServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T20:34:41.036+05:30  INFO 21328 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02T20:34:41.038+05:30  INFO 21328 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T20:34:41.118+05:30  INFO 21328 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2025-12-02T20:34:41.650+05:30  INFO 21328 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2025-12-02T20:34:41.664+05:30  INFO 21328 --- [payment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-02T20:34:41.664+05:30  INFO 21328 --- [payment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-02T20:34:41.747+05:30  INFO 21328 --- [payment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-02T20:34:41.747+05:30  INFO 21328 --- [payment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
+2025-12-02T20:34:41.880+05:30  INFO 21328 --- [payment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T20:34:41.960+05:30  INFO 21328 --- [payment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-12-02T20:34:42.003+05:30  INFO 21328 --- [payment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-02T20:34:42.251+05:30  INFO 21328 --- [payment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T20:34:42.277+05:30  INFO 21328 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-02T20:34:42.643+05:30  INFO 21328 --- [payment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3386c206
+2025-12-02T20:34:42.645+05:30  INFO 21328 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-02T20:34:42.695+05:30  WARN 21328 --- [payment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-02T20:34:42.696+05:30  WARN 21328 --- [payment-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-02T20:34:43.476+05:30  INFO 21328 --- [payment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T20:34:43.666+05:30  INFO 21328 --- [payment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T20:34:43.713+05:30  WARN 21328 --- [payment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-02T20:34:44.225+05:30  INFO 21328 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8005 (http) with context path ''
+2025-12-02T20:34:44.233+05:30  INFO 21328 --- [payment-service] [main] com.wok.PaymentServiceApplication        : Started PaymentServiceApplication in 4.223 seconds (process running for 4.543)
+2025-12-02T21:15:44.504+05:30  WARN 21328 --- [payment-service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m1s224ms406µs400ns).
