@@ -4,6 +4,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.ecommerce.wok.catalog.repository")  // Change
+@EnableJpaRepositories(basePackages = "com.wok.order.repository")  // Change
 public class JpaConfig {
 }
